@@ -1,0 +1,50 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: "Muli";   
+  src: local("Muli"),
+    url("../src/resources/fonts/muli/Muli.ttf") format("truetype");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient( #f4f0f3, #eaf3f7 );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  background: linear-gradient( #f4f0f3, #eaf3f7 );
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.avatar-display {
+  border-radius: 100px;
+  float: left;
+}
